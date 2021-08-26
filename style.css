@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* colori */
+:root {
+    --lime: #00dd00;
+    --yellow: #f5b453;
+    --red: #be4141;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* contenitori */
+.background {
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    overflow: auto;
+}
+
+.container {
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 80px;
+    border-radius: 20px;
+}
+
+/* header */
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 220px;
+}
+
+header > h1 {
+    color: var(--lime);
+}
+
+/* nav */
+.buttons {
+    text-align: center;
+    background-color: var(--lime);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.buttons > button {
+    padding: 2px 5px;
+}
+
+/* main */
+.monopattino {
+    color: white;
+    margin-top: 25px;
+}
+
+.nome-monopattino {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.location {
+    margin: 3px 0;
+}
+
+.charge {
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 3px;
+}
+
+.yellow {
+    background-color: var(--yellow);
+    width: 40%;
+}
+
+.green {
+    background-color: var(--lime);
+    width: 70%;
+}
+
+.red {
+    background-color: var(--red);
+    width: 20%;
+}
